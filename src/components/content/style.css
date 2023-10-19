@@ -1,0 +1,51 @@
+.container {
+    padding: 2em;
+    margin-bottom: 60px;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  .content {
+    height: 100%;
+    margin: max(5%, 20px);
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .card-input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .read-the-docs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #888;
+  }
+  
+  .letra-correta {
+    color: green;
+    margin-right: 5px;
+  }
+  
+  .letra-incorreta {
+    color: red;
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 420px) {
+    .card-input {
+      flex-direction: column;
+    }
+  
+    input {
+      height: 30px;
+    }
+  }
